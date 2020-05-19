@@ -1,0 +1,7 @@
+<%#=for simple-form you have an input_type checkbox and then you can change it from false to true %>
+<%= simple_form_for(@task) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.input :completed %>
+  <%= f.submit %>
+<% end %>
